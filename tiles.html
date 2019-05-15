@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dayton's First Page</title>
-<style>
-    body{
-      background: url("pattern.png");
+
+<head>
+  <meta charset="utf-8">
+  <title>Dayton's First Page</title>
+  <style>
+    body {
+      background: url("scuffedstatic_dark1400x900.jpg");
       color: orange;
-        }
+    }
 
-        #bob {
-          background: url("Background.png");
-          width: 500px;
-          height: 500px;
-            }
+    #bob {
+      background: url("Background.png");
+      width: 500px;
+      height: 500px;
+    }
 
-        #greg {
-          background: url(png-24.png);
-          width:500px;
-          height:500px;
-        }
+    #greg {
+      background: url(png-24.png);
+      width: 500px;
+      height: 500px;
+    }
 
-        #omen {
-          background: url(wolfgon.jpg);
-          width:500px;
-          height:500px;
-        }
+    #omen {
+      background: url(wolfgon.jpg);
+      width: 500px;
+      height: 500px;
+    }
 
-    </style>
-  </head>
-  <body>
-    <div id="bob"></div>
-    <div id="greg"></div>
-    <div id="omen"></div>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: cyan;
+      text-decoration: none;
+      display: block;
+      background: #222;
+      width: 200px;
+      height: 50px;
+      margin: 20px;
+      text-align: center;
+      border-radius: 20px;
+      border: 1px solid
+    }
+
+    a:hover {
+      background: linear-gradient(to bottom, #00f260, #0575e6);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      ;
+      color: #159;
+      box-shadow: 3px 3px 3px #154
+    }
+
+    a:active {
+      background: linear-gradient(to bottom, #00f260, #0575e6);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      ;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="text.html">Text Page</a></li>
+    <li><a href="Box.html">Box Page</a></li>
+    <li><a href="image.html">Image Page</a></li>
+    <li><a href="transforms.html">transform</a></li>
+    <li><a href="WillF.gif">Animated Gif</li></a>
+    <li><a href="tiles.html">Tiles Page</li></a>
+    <li><a href="Tables.html">Tables Page</li></a>
+    <li><a href="sea-horse.html">Sea Horse page</a></li>
+    <li><a href="Sea-Horses-2.html">Sea Horse 2</li></a>
+    <li><a href="Minisite.html">Bonsai Sloth Umbrella</a></li>
+  </ul>
+
+  <div id="bob"></div>
+  <div id="greg"></div>
+  <div id="omen"></div>
+
 
 </html>
